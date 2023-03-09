@@ -5,4 +5,5 @@ if __name__ == "__main__":
     for value in sys.argv:
         if value != sys.argv[0]:
             add +=int(value)
+
     print("{}".format(add))
