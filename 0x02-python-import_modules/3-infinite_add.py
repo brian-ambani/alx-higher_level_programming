@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     add = 0
-    for value in range(len(sys.argv) - 1):
-            add +=int(sys.argv[value + 1])
-
-    print("{}".format(add))
+    for value in sys.argv:
+        if value != sys.argv[0]:
+            add +=int(value)
+    print(add)
