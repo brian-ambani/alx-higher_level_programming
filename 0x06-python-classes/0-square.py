@@ -3,6 +3,4 @@
 """Class that defines a square.
 """
 class Square:
-    """Does absolutely nothing
-    """
     pass
