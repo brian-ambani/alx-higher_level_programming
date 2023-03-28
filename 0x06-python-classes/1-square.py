@@ -5,6 +5,6 @@ class Square:
     def __init__(self, size):
         """Initialize method that stores the size of the square
         Args:
-        size (int): The size of the square
+            size (int): The size of the square
         """
         self.__size = size
