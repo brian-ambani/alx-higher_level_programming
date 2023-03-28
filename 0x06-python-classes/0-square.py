@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-# 0-square.py by brian-ambani
 
-    """Class Square that defines an square.
-    """
+"""Class Square that defines a square. """
+
 class square:
-
-    """Empty class
-    """
+    """Does nothing"""
     pass
+
