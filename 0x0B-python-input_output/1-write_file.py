@@ -5,7 +5,7 @@ of a text file
 """
 
 
-def number_of_lines(filename=""):
+def number_of_lines(filename="", text=""):
     """
     Function that reads from a file and prints its number of lines
     Args:
