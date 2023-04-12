@@ -18,6 +18,9 @@ class Student:
         Get a dictionary representation of the Student
         If attrs is a list of strings, represents only those attributes
         included in the list
+
+        Args:
+            attrs: alist of strings
         """
         if (type(attrs) == list and
                 all(type(ele) == str for ele in attrs)):
