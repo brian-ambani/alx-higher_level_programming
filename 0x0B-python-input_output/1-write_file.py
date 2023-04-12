@@ -10,6 +10,7 @@ def number_of_lines(filename="", text=""):
     Function that reads from a file and prints its number of lines
     Args:
         filename: filename
+        text: the text containing the number of lines
     Raises
         Exception: when the file can be opened
     """
