@@ -13,8 +13,8 @@ def number_of_lines(filename=""):
     Raises
         Exception: when the file can be opened
     """
-    lines = 0
+    n_lines = 0
     with open(filename, 'r', encoding="utf-8") as f:
         for line in f:
-            lines += 1
-    return lines
+            n_lines += 1
+    return n_lines
