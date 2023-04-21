@@ -6,7 +6,7 @@ A model containing a class name square
 from models.rectangle import Rectangle
 
 
-class Square(Ractangle):
+class Square(Rectangle):
     """
         A class representing a square
     """
