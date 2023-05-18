@@ -1,4 +1,4 @@
--- Creates creates the database hbtn_0c_0 in MySQL server
---- Does fail if the database exists
+-- Creates a new database
+-- Does fail if the database exists
 
 CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
