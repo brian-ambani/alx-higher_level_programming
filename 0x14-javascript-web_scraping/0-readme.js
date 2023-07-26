@@ -1,16 +1,12 @@
 #!/usr/bin/node
 
-// Import built in Node libraries
-
 const fs = require('fs');
-const process = require('process');
+const filename = process.argv[2];
 
-// Create filepath process
-const filePath = process.argv[2];
-
-try {
-  const data = fs.readFileSync(filePath, 'utf-8');
-  console.log(data);
-} catch (err) {
-  console.log(err);
-}
+fs.readFile(filename, 'utf-8', (error, content) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log(content);
+  }
+});
